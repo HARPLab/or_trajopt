@@ -35,7 +35,7 @@ include(ExternalProject)
 ExternalProject_Add(
   libtrajopt
   BINARY_DIR ${CATKIN_DEVEL_PREFIX}
-  GIT_REPOSITORY https://github.com/personalrobotics/trajopt.git
+  GIT_REPOSITORY https://github.com/HARPLab/trajopt.git
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>
   INSTALL_COMMAND ""
 )
